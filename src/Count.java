@@ -14,22 +14,17 @@
  * limitations under the License.
  */
 
-import count.gui.App;
-import count.gui.Mien;
-import count.gui.TreeCollection;
-import count.gui.TreeEditDialog;
-import count.gui.UsersGuide;
-import count.gui.WorkSpace;
+import count.gui.*;
+import count.io.DataFile;
 import count.io.NewickParser;
 import count.model.IndexedTree;
 import count.model.OccurrenceTable;
 import count.model.Phylogeny;
-import count.io.DataFile;
 import count.model.RateVariation;
 import count.util.Executable;
-import java.awt.Dimension;
-import java.awt.FileDialog;
-import java.awt.Toolkit;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -37,15 +32,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import javax.swing.ImageIcon;
-import javax.swing.JComponent;
-import javax.swing.JEditorPane;
-import javax.swing.JFrame;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JScrollPane;
-import javax.swing.KeyStroke;
-import javax.swing.UIManager;
 
 
 /**
@@ -626,7 +612,7 @@ public class Count extends App
 //        return ot;
 //    }
     
-
+ //test2
     public static void main(String[] args)
     {
 //        Verbose.setVerbose(true);
