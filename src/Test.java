@@ -1,7 +1,8 @@
 public class Test {
     public static void main(String[] args) {
         // Prints "Hello, World" to the terminal window.
-        System.out.println("Hello, Amir");
+        System.out.println("Hello, Amir2");
+        System.out.println("ffff");
         //
     }
 }
